@@ -15,7 +15,7 @@ required:
  - sonarqube
  - new_relic
  - bluemix
- - jmeter
+ - appium
  - urbancodedeploy
 
 jira:
@@ -121,12 +121,12 @@ bluemix:
     description:
     additional-properties:
 
-jmeter:
+appium:
   service_id: customtool
   parameters:
-    type: JMeter
+    type: Appium
     lifecyclePhase: "CODE"
-    imageUrl: http://cdn.freeperformancesoftware.com/wp-content/uploads/2013/10/jmeter-logo.jpg
+    imageUrl: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAduAAAAJDk0MjU2YWQ5LWRiZDAtNGExMy04YjY5LWZhNGIzYjkyNDZjOA.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
