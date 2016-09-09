@@ -138,7 +138,7 @@ appium:
 mqa:
   service_id: customtool
   parameters:
-    type: Appium
+    type: MQA
     lifecyclePhase: "LEARN"
     imageUrl: http://1.bp.blogspot.com/-Ph7cc78owKI/U7WoZzisz0I/AAAAAAAAITU/9dbfLEpoLJo/s1600/mqa.jpg
     documentationUrl:
@@ -150,9 +150,9 @@ mqa:
 appsecurity:
   service_id: customtool
   parameters:
-    type: Appium
-    lifecyclePhase: "LEARN"
-    imageUrl: http://1.bp.blogspot.com/-Ph7cc78owKI/U7WoZzisz0I/AAAAAAAAITU/9dbfLEpoLJo/s1600/mqa.jpg
+    type: ApplicationSecurity
+    lifecyclePhase: "CODE"
+    imageUrl: https://developer.ibm.com/bluemix/wp-content/uploads/sites/20/2016/02/app_security_hero_220.png
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
