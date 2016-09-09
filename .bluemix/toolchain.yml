@@ -2,11 +2,11 @@
 #default_locale: en
 #locales: 
 #  $ref: locales.yml
-name: "WebService project toolchain"
-description: "This is an OTC template for WebService project profile. \n\nTo get started, click **Create**."
+name: "MobApp project toolchain"
+description: "This is an OTC template for MobileApp project profile. \n\nTo get started, click **Create**."
 version: 0.1
 # Generate base64 representation of image at http://www.askapache.com/online-tools/base64-image-converter/
-image: data:image/png;base64,$file(PL_WebApp_OTCT-toolchain.png,base64)
+image: data:image/png;base64,$file(PL_MobApp_OTCT-toolchain.png,base64)
 required: 
  - jira
  - gitlab
@@ -16,6 +16,8 @@ required:
  - new_relic
  - bluemix
  - appium
+ - mqa
+ - appsecurity
  - urbancodedeploy
 
 jira:
@@ -127,6 +129,30 @@ appium:
     type: Appium
     lifecyclePhase: "CODE"
     imageUrl: https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAduAAAAJDk0MjU2YWQ5LWRiZDAtNGExMy04YjY5LWZhNGIzYjkyNDZjOA.png
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+    
+mqa:
+  service_id: customtool
+  parameters:
+    type: Appium
+    lifecyclePhase: "LEARN"
+    imageUrl: http://1.bp.blogspot.com/-Ph7cc78owKI/U7WoZzisz0I/AAAAAAAAITU/9dbfLEpoLJo/s1600/mqa.jpg
+    documentationUrl:
+    name: "{{name}}"
+    dashboard_url:
+    description:
+    additional-properties:
+    
+appsecurity:
+  service_id: customtool
+  parameters:
+    type: Appium
+    lifecyclePhase: "LEARN"
+    imageUrl: http://1.bp.blogspot.com/-Ph7cc78owKI/U7WoZzisz0I/AAAAAAAAITU/9dbfLEpoLJo/s1600/mqa.jpg
     documentationUrl:
     name: "{{name}}"
     dashboard_url:
