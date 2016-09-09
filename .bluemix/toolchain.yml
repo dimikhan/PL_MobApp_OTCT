@@ -53,11 +53,6 @@ messaging:
   service_id: slack
   include: slack.yml
   
-#Sauce Labs
-test:
-  service_id: saucelabs
-  include: saucelabs.yml
-  
 #Deployment Risk Analytics
 dra:
   service_id: draservicebroker
@@ -162,7 +157,7 @@ appsecurity:
 urbancodedeploy:
   service_id: customtool
   parameters:
-    type: Bluemix
+    type: UrbancodeDeploy
     lifecyclePhase: "DELIVER"
     imageUrl: http://www.testplant.com/wp-content/uploads/2016/02/TP-Eco-logos-UrbanCode1.png
     documentationUrl:
