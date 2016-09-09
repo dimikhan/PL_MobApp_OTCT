@@ -139,7 +139,7 @@ mqa:
   service_id: customtool
   parameters:
     type: MQA
-    lifecyclePhase: "LEARN"
+    lifecyclePhase: "MANAGE"
     imageUrl: http://1.bp.blogspot.com/-Ph7cc78owKI/U7WoZzisz0I/AAAAAAAAITU/9dbfLEpoLJo/s1600/mqa.jpg
     documentationUrl:
     name: "{{name}}"
